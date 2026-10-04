@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.venv/
+cliniclog.db
+private_uploads/*
+!private_uploads/.gitkeep
+__pycache__/
+*.pyc

@@ -1,0 +1,55 @@
+# Node dependencies
+node_modules/
+package-lock.json.log
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environments & bytecode
+.venv/
+*/.venv/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets (CRITICAL: protect credentials)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/cliniclog.db
+
+# Uploaded documents
+backend/private_uploads/*
+!backend/private_uploads/.gitkeep
+
+# IDEs & System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Caches
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
